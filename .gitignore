@@ -1,0 +1,27 @@
+# ─── macOS ────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ─── Node / npm ───────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# ─── Vite build output ────────────────────────────────────────
+umkm-dashboard/dist/
+umkm-dashboard/.vite/
+
+# ─── Environment variables (JANGAN di-push ke GitHub) ─────────
+.env
+.env.local
+.env.*.local
+umkm-dashboard/.env
+umkm-dashboard/.env.local
+umkm-dashboard/.env.*.local
+
+# ─── IBM Bob workspace ────────────────────────────────────────
+.bob/
+
+# ─── Log & temp files ─────────────────────────────────────────
+*.log
